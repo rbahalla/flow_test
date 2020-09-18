@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_inics_netops_net.awx_job_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>awx_job_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-15 13:21:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba53074ddb571c50625afef8689619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_inics_netops_net.awx_job_user</sys_name>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name>sys_user_role_ba53074ddb571c50625afef8689619cb</sys_update_name>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-15 13:21:07</sys_updated_on>
+    </sys_user_role>
+</record_update>

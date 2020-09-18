@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-15 13:21:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f53cb4ddb571c50625afef86896190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_inics_netops_net_awx_job.x_inics_netops_net.awx_job_user</sys_name>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_security_acl display_value="x_inics_netops_net_awx_job">c7534b4ddb571c50625afef8689619ff</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8f53cb4ddb571c50625afef86896190e</sys_update_name>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-15 13:21:08</sys_updated_on>
+        <sys_user_role display_value="x_inics_netops_net.awx_job_user" name="x_inics_netops_net.awx_job_user">ba53074ddb571c50625afef8689619cb</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
