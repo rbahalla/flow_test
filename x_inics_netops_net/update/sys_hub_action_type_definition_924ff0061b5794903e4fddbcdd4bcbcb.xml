@@ -1,0 +1,2289 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>test_action</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{step[f5f61fa1-7117-4ff8-826c-e83a52023902].variable}}","label":"step➛Script step➛variable","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>c49fbc061b5794903e4fddbcdd4bcb17</latest_snapshot>
+        <master_snapshot>d89f30461b5794903e4fddbcdd4bcb1f</master_snapshot>
+        <name>Test Action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:18:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>924ff0061b5794903e4fddbcdd4bcbcb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Test Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_924ff0061b5794903e4fddbcdd4bcbcb</sys_update_name>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=924ff0061b5794903e4fddbcdd4bcbcb"/>
+    <sys_element_mapping action="delete_multiple" query="id=924ff0061b5794903e4fddbcdd4bcbcb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>924ff0061b5794903e4fddbcdd4bcbcb</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>9b8f7c061b5794903e4fddbcdd4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_924ff0061b5794903e4fddbcdd4bcbcb</table>
+        <value>{{step[f5f61fa1-7117-4ff8-826c-e83a52023902].variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=924ff0061b5794903e4fddbcdd4bcbcb^sys_idNOT INc38f3c061b5794903e4fddbcdd4bcbd6"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</action>
+        <cid>f5f61fa1-7117-4ff8-826c-e83a52023902</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c38f3c061b5794903e4fddbcdd4bcbd6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c38f3c061b5794903e4fddbcdd4bcbd6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c38f3c061b5794903e4fddbcdd4bcbd6</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>4b8f3c061b5794903e4fddbcdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.variable = inputs.parameter;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c38f3c061b5794903e4fddbcdd4bcbd6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>838f3c061b5794903e4fddbcdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c38f3c061b5794903e4fddbcdd4bcbd6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c38f3c061b5794903e4fddbcdd4bcbd6</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>4b8f3c061b5794903e4fddbcdd4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>c38f3c061b5794903e4fddbcdd4bcbd6</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>478f3c061b5794903e4fddbcdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c38f3c061b5794903e4fddbcdd4bcbd6</table>
+        <value>{{action.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c38f3c061b5794903e4fddbcdd4bcbd6</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>038f3c061b5794903e4fddbcdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c38f3c061b5794903e4fddbcdd4bcbd6^sys_idNOT INc38f3c061b5794903e4fddbcdd4bcbdb"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parameter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c38f3c061b5794903e4fddbcdd4bcbd6</model>
+        <model_id>c38f3c061b5794903e4fddbcdd4bcbd6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c38f3c061b5794903e4fddbcdd4bcbd6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c38f3c061b5794903e4fddbcdd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c38f3c061b5794903e4fddbcdd4bcbd6^sys_idNOT IN4b8f3c061b5794903e4fddbcdd4bcbed"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b05cbdc2-0362-43cf-aa46-75c654fe7f27</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c38f3c061b5794903e4fddbcdd4bcbd6</model>
+        <model_id>c38f3c061b5794903e4fddbcdd4bcbd6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c38f3c061b5794903e4fddbcdd4bcbd6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4b8f3c061b5794903e4fddbcdd4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=924ff0061b5794903e4fddbcdd4bcbcb^sys_idNOT IN3a8f3c061b5794903e4fddbcdd4bcbc1,728fbc8a1b1794903e4fddbcdd4bcb3f,7e8f3c061b5794903e4fddbcdd4bcbc7,b28f3c061b5794903e4fddbcdd4bcbce"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6d5fadf0-bd24-4246-a6f8-b576119afc3a</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</model>
+        <model_id>924ff0061b5794903e4fddbcdd4bcbcb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a8f3c061b5794903e4fddbcdd4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1a86995a-46b1-4f5d-9f9d-1d4f802ee95d</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</model>
+        <model_id>924ff0061b5794903e4fddbcdd4bcbcb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>728fbc8a1b1794903e4fddbcdd4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=45ddfec8-1a1d-4c5d-9535-7912ede8f5a1</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</model>
+        <model_id>924ff0061b5794903e4fddbcdd4bcbcb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e8f3c061b5794903e4fddbcdd4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c56d9a75-ea3b-43a5-a743-ca6014a13de3</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable3</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable3</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</model>
+        <model_id>924ff0061b5794903e4fddbcdd4bcbcb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b28f3c061b5794903e4fddbcdd4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=924ff0061b5794903e4fddbcdd4bcbcb^sys_idNOT INcf8f3c061b5794903e4fddbcdd4bcbfb"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=da08fc44-a138-4395-bcda-fc194c6cc8ac</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</model>
+        <model_id>924ff0061b5794903e4fddbcdd4bcbcb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cf8f3c061b5794903e4fddbcdd4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=924ff0061b5794903e4fddbcdd4bcbcb^sys_idNOT INc38f3c061b5794903e4fddbcdd4bcbd6"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</action>
+        <cid>f5f61fa1-7117-4ff8-826c-e83a52023902</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c38f3c061b5794903e4fddbcdd4bcbd6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c38f3c061b5794903e4fddbcdd4bcbd6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c38f3c061b5794903e4fddbcdd4bcbd6</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>4b8f3c061b5794903e4fddbcdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.variable = inputs.parameter;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c38f3c061b5794903e4fddbcdd4bcbd6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>838f3c061b5794903e4fddbcdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c38f3c061b5794903e4fddbcdd4bcbd6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>c38f3c061b5794903e4fddbcdd4bcbd6</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>4b8f3c061b5794903e4fddbcdd4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>c38f3c061b5794903e4fddbcdd4bcbd6</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>478f3c061b5794903e4fddbcdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c38f3c061b5794903e4fddbcdd4bcbd6</table>
+        <value>{{action.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>c38f3c061b5794903e4fddbcdd4bcbd6</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_id>038f3c061b5794903e4fddbcdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c38f3c061b5794903e4fddbcdd4bcbd6^sys_idNOT INc38f3c061b5794903e4fddbcdd4bcbdb"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parameter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c38f3c061b5794903e4fddbcdd4bcbd6</model>
+        <model_id>c38f3c061b5794903e4fddbcdd4bcbd6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c38f3c061b5794903e4fddbcdd4bcbd6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c38f3c061b5794903e4fddbcdd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c38f3c061b5794903e4fddbcdd4bcbd6^sys_idNOT IN4b8f3c061b5794903e4fddbcdd4bcbed"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b05cbdc2-0362-43cf-aa46-75c654fe7f27</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c38f3c061b5794903e4fddbcdd4bcbd6</model>
+        <model_id>c38f3c061b5794903e4fddbcdd4bcbd6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c38f3c061b5794903e4fddbcdd4bcbd6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4b8f3c061b5794903e4fddbcdd4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb^sys_idNOT IN328f3c061b5794903e4fddbcdd4bcbd3,728f3c061b5794903e4fddbcdd4bcbc0,b68f3c061b5794903e4fddbcdd4bcbc6,fa8f3c061b5794903e4fddbcdd4bcbcc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable3</element>
+        <help/>
+        <hint/>
+        <label>variable3</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>328f3c061b5794903e4fddbcdd4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>728f3c061b5794903e4fddbcdd4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable1</element>
+        <help/>
+        <hint/>
+        <label>variable1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b68f3c061b5794903e4fddbcdd4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable2</element>
+        <help/>
+        <hint/>
+        <label>variable2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa8f3c061b5794903e4fddbcdd4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_924ff0061b5794903e4fddbcdd4bcbcb^sys_idNOT IN8b8f7c061b5794903e4fddbcdd4bcb01"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_924ff0061b5794903e4fddbcdd4bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8b8f7c061b5794903e4fddbcdd4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=924ff0061b5794903e4fddbcdd4bcbcb^sys_idNOT INf89f70461b5794903e4fddbcdd4bcbbb"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f89f70461b5794903e4fddbcdd4bcbbb","name":"plan"}}</plan>
+        <snapshot>c49fbc061b5794903e4fddbcdd4bcb17</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f89f70461b5794903e4fddbcdd4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:18</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_action</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{step[f5f61fa1-7117-4ff8-826c-e83a52023902].variable}}","label":"step➛Script step➛variable","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Test Action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Test Action">924ff0061b5794903e4fddbcdd4bcbcb</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d89f30461b5794903e4fddbcdd4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:15</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=d89f30461b5794903e4fddbcdd4bcb1f"/>
+    <sys_element_mapping action="delete_multiple" query="id=d89f30461b5794903e4fddbcdd4bcb1f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>d89f30461b5794903e4fddbcdd4bcb1f</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:17</sys_created_on>
+        <sys_id>bc9f70461b5794903e4fddbcdd4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d89f30461b5794903e4fddbcdd4bcb1f</table>
+        <value>{{step[f5f61fa1-7117-4ff8-826c-e83a52023902].variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=d89f30461b5794903e4fddbcdd4bcb1f^sys_idNOT IN6c9f70461b5794903e4fddbcdd4bcb27"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Test Action">d89f30461b5794903e4fddbcdd4bcb1f</action>
+        <cid>f5f61fa1-7117-4ff8-826c-e83a52023902</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c9f70461b5794903e4fddbcdd4bcb27</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6c9f70461b5794903e4fddbcdd4bcb27"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6c9f70461b5794903e4fddbcdd4bcb27</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>609f70461b5794903e4fddbcdd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.variable = inputs.parameter;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6c9f70461b5794903e4fddbcdd4bcb27</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>ac9f70461b5794903e4fddbcdd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c9f70461b5794903e4fddbcdd4bcb27"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6c9f70461b5794903e4fddbcdd4bcb27</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>689f70461b5794903e4fddbcdd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>6c9f70461b5794903e4fddbcdd4bcb27</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>e89f70461b5794903e4fddbcdd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6c9f70461b5794903e4fddbcdd4bcb27</table>
+        <value>{{action.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6c9f70461b5794903e4fddbcdd4bcb27</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>2c9f70461b5794903e4fddbcdd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6c9f70461b5794903e4fddbcdd4bcb27^sys_idNOT INa89f70461b5794903e4fddbcdd4bcb2a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parameter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>parameter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6c9f70461b5794903e4fddbcdd4bcb27</model>
+        <model_id>6c9f70461b5794903e4fddbcdd4bcb27</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6c9f70461b5794903e4fddbcdd4bcb27</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a89f70461b5794903e4fddbcdd4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6c9f70461b5794903e4fddbcdd4bcb27^sys_idNOT IN2c9f70461b5794903e4fddbcdd4bcb31"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b05cbdc2-0362-43cf-aa46-75c654fe7f27</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6c9f70461b5794903e4fddbcdd4bcb27</model>
+        <model_id>6c9f70461b5794903e4fddbcdd4bcb27</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6c9f70461b5794903e4fddbcdd4bcb27</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c9f70461b5794903e4fddbcdd4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=d89f30461b5794903e4fddbcdd4bcb1f^sys_idNOT IN1c9f30461b5794903e4fddbcdd4bcb20,1c9f30461b5794903e4fddbcdd4bcb65,9c9f30461b5794903e4fddbcdd4bcb6b,ec9f30461b5794903e4fddbcdd4bcbe1"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1a86995a-46b1-4f5d-9f9d-1d4f802ee95d</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">d89f30461b5794903e4fddbcdd4bcb1f</model>
+        <model_id>d89f30461b5794903e4fddbcdd4bcb1f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1c9f30461b5794903e4fddbcdd4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6d5fadf0-bd24-4246-a6f8-b576119afc3a</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">d89f30461b5794903e4fddbcdd4bcb1f</model>
+        <model_id>d89f30461b5794903e4fddbcdd4bcb1f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1c9f30461b5794903e4fddbcdd4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=45ddfec8-1a1d-4c5d-9535-7912ede8f5a1</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">d89f30461b5794903e4fddbcdd4bcb1f</model>
+        <model_id>d89f30461b5794903e4fddbcdd4bcb1f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9c9f30461b5794903e4fddbcdd4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c56d9a75-ea3b-43a5-a743-ca6014a13de3</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable3</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable3</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">d89f30461b5794903e4fddbcdd4bcb1f</model>
+        <model_id>d89f30461b5794903e4fddbcdd4bcb1f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ec9f30461b5794903e4fddbcdd4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=d89f30461b5794903e4fddbcdd4bcb1f^sys_idNOT IN249f70461b5794903e4fddbcdd4bcb57"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=da08fc44-a138-4395-bcda-fc194c6cc8ac</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test Action">d89f30461b5794903e4fddbcdd4bcb1f</model>
+        <model_id>d89f30461b5794903e4fddbcdd4bcb1f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>249f70461b5794903e4fddbcdd4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=d89f30461b5794903e4fddbcdd4bcb1f^sys_idNOT IN6c9f70461b5794903e4fddbcdd4bcb27"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Test Action">d89f30461b5794903e4fddbcdd4bcb1f</action>
+        <cid>f5f61fa1-7117-4ff8-826c-e83a52023902</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c9f70461b5794903e4fddbcdd4bcb27</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6c9f70461b5794903e4fddbcdd4bcb27"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6c9f70461b5794903e4fddbcdd4bcb27</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>609f70461b5794903e4fddbcdd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.variable = inputs.parameter;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6c9f70461b5794903e4fddbcdd4bcb27</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>ac9f70461b5794903e4fddbcdd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c9f70461b5794903e4fddbcdd4bcb27"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6c9f70461b5794903e4fddbcdd4bcb27</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>689f70461b5794903e4fddbcdd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>6c9f70461b5794903e4fddbcdd4bcb27</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>e89f70461b5794903e4fddbcdd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6c9f70461b5794903e4fddbcdd4bcb27</table>
+        <value>{{action.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6c9f70461b5794903e4fddbcdd4bcb27</id>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_id>2c9f70461b5794903e4fddbcdd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6c9f70461b5794903e4fddbcdd4bcb27^sys_idNOT INa89f70461b5794903e4fddbcdd4bcb2a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parameter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>parameter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6c9f70461b5794903e4fddbcdd4bcb27</model>
+        <model_id>6c9f70461b5794903e4fddbcdd4bcb27</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6c9f70461b5794903e4fddbcdd4bcb27</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a89f70461b5794903e4fddbcdd4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6c9f70461b5794903e4fddbcdd4bcb27^sys_idNOT IN2c9f70461b5794903e4fddbcdd4bcb31"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b05cbdc2-0362-43cf-aa46-75c654fe7f27</attributes>
+        <audit>false</audit>
+        <calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6c9f70461b5794903e4fddbcdd4bcb27</model>
+        <model_id>6c9f70461b5794903e4fddbcdd4bcb27</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6c9f70461b5794903e4fddbcdd4bcb27</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c9f70461b5794903e4fddbcdd4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f^sys_idNOT IN289f30461b5794903e4fddbcdd4bcbe0,549f30461b5794903e4fddbcdd4bcb64,d49f30461b5794903e4fddbcdd4bcb6a,e89f30461b5794903e4fddbcdd4bcbe6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable2</element>
+        <help/>
+        <hint/>
+        <label>variable2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>289f30461b5794903e4fddbcdd4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>549f30461b5794903e4fddbcdd4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable1</element>
+        <help/>
+        <hint/>
+        <label>variable1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d49f30461b5794903e4fddbcdd4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable3</element>
+        <help/>
+        <hint/>
+        <label>variable3</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e89f30461b5794903e4fddbcdd4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_d89f30461b5794903e4fddbcdd4bcb1f^sys_idNOT INbc9f70461b5794903e4fddbcdd4bcb81"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_d89f30461b5794903e4fddbcdd4bcb1f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Randy.Bahalla</sys_created_by>
+        <sys_created_on>2020-09-18 06:19:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bc9f70461b5794903e4fddbcdd4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetOps Network Automation" source="x_inics_netops_net">5ca243c9db571c50625afef8689619c1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NetOps Network Automation">5ca243c9db571c50625afef8689619c1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Randy.Bahalla</sys_updated_by>
+        <sys_updated_on>2020-09-18 06:19:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
